@@ -17,6 +17,11 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Code coverage: none
  * Source: two file, `main_local.cpp` and `main_travis.cpp`
 
+The compilation is dependent on Travis:
+
+ * Locally, `main_local.cpp` should be compiled, resulting in a program that says `Hello world, from a local computer`
+ * When run on Travis CI, `main_travis.cpp` should be compiled, resulting in a program that says `Hello world, from Travis CI`
+
 More complex builds:
  * [none]
 
