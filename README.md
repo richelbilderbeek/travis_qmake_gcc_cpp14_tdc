@@ -25,5 +25,8 @@ The compilation is dependent on Travis:
 More complex builds:
  * [none]
 
+Equally complex builds:
+ * Travis-dependent run: [travis_qmake_gcc_cpp14_tdr](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdr)
+
 Less complex builds:
  * No Travis-dependent compilation: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
